@@ -26,7 +26,31 @@ babel-plugin-module-resolver -D
 ```
 
 * babel.config.json
-
+```
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins:[
+      [
+        'module-resolver',
+        {
+          root: ['./src'],
+          extensions: [
+            '.ts', '.tsx', '.js',
+            '.json','.css'
+          ],
+          alias: {
+            '@components': './src/components',
+            '@screens': './src/screens',
+            '@assets': './src/assets',
+          }
+        }
+      ]
+    ]
+  }
+}
+```
 
 * Configurar tsconfig.json
 ```
@@ -43,4 +67,17 @@ babel-plugin-module-resolver -D
     }
   },
 }
+```
+
+* Fontes
+```
+expo install @expo-google-fonts/dm-sans
+```
+```
+expo install @expo-google-fonts/dm-serif-display
+```
+
+* Para verificar o carregamento dos modulos
+```
+expo install expo-app-loading@~1.2.1
 ```
