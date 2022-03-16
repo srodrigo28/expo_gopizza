@@ -81,3 +81,16 @@ expo install @expo-google-fonts/dm-serif-display
 ```
 expo install expo-app-loading@~1.2.1
 ```
+
+* Styled-componnets para estilar
+```
+npm install styled-component
+```
+```
+yarn add styled-components
+```
+
+* Styled-componnets typagem
+```
+npm install @types/styled-components-react-native -D
+```
