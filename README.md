@@ -18,3 +18,29 @@ cd go pizza
 * Criar o arquivo tsconfig.json em branco
 ```
 expo start
+```
+
+* Auxiliar de diretório
+```
+babel-plugin-module-resolver -D
+```
+
+* babel.config.json
+
+
+* Configurar tsconfig.json
+```
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "/",
+    "paths": {
+      "@src/*": [ "./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@screens/*": ["./src/screens/*"],
+    }
+  },
+}
+```
