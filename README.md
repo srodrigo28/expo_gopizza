@@ -1,7 +1,10 @@
 # Projeto Expo GoPizza
 
 ### by Rockeatset
+``` Theme
+https://app.rocketseat.com.br/node/app-de-pedido-de-pizzas-2022/group/estrutura-do-projeto-1640096678756/lesson/1640096678756-tema-da-aplicacao
 ```
+```Inicial
 https://app.rocketseat.com.br/node/app-de-pedido-de-pizzas-2022/group/estrutura-do-projeto-1640096678756/lesson/1640096678754-adicionando-typescript
 ```
 
@@ -93,4 +96,9 @@ yarn add styled-components
 * Styled-componnets typagem
 ```
 npm install @types/styled-components-react-native -D
+```
+
+* Baixar thema
+```
+https://storage.googleapis.com/xesque.rocketseat.dev/ignite/react-native-assets/theme-app-de-pizzas.zip
 ```
