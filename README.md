@@ -1,6 +1,6 @@
 # Projeto Expo GoPizza
 
-### By Rockeatset
+### By Rockeatset curse
 ``` Theme
 https://app.rocketseat.com.br/node/app-de-pedido-de-pizzas-2022/group/estrutura-do-projeto-1640096678756/lesson/1640096678756-tema-da-aplicacao
 ```
