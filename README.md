@@ -23,6 +23,11 @@ cd go pizza
 expo start
 ```
 
+* Para rodar no android
+```
+npm run android
+```
+
 * Auxiliar de diretório
 ```
 babel-plugin-module-resolver -D
@@ -96,6 +101,11 @@ yarn add styled-components
 * Styled-componnets typagem
 ```
 npm install @types/styled-components-react-native -D
+```
+
+* Linear gradiente
+```
+expo install expo-linear-gradient
 ```
 
 * Baixar thema
